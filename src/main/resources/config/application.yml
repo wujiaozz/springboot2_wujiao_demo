@@ -1,0 +1,20 @@
+# 重复的配置按级别排名对配置进行覆盖, 若没有的将会兼容其他级别的配置
+server:
+  port: 8083
+
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
+#    username: root
+#    password: 131425
+#    type: com.alibaba.druid.pool.DruidDataSource
+#
+#
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      table-prefix: tbl_
+#      id-type: auto
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
